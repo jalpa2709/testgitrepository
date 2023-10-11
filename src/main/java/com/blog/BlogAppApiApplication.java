@@ -17,4 +17,9 @@ public class BlogAppApiApplication {
 	{
 		return new ModelMapper(); 
 	}
+	
+	public String hello()
+	{
+		return "hello World!!!";
+	}
 }
